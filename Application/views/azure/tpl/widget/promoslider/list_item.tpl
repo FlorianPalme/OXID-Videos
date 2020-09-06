@@ -1,0 +1,5 @@
+[{if $oBanner->oxactions__fpoxidvideos_video->value}]
+    [{include file="fp/oxidvideos/azure/actions_video.tpl"}]
+[{else}]
+    [{$smarty.block.parent}]
+[{/if}]

@@ -1,0 +1,1 @@
+[{include file="fp/oxidvideos/category_video.tpl"}]

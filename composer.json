@@ -1,0 +1,34 @@
+{
+  "name": "florianpalme/oxid-videos",
+  "description": "Ermöglicht die Integration von Videos an verschiedensten Stellen, an welcher sonst nur Bilder eingebunden werden können.",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop", "florianpalme", "videos", "content"],
+  "homepage": "https://www.florian-palme.de",
+  "license": "GPL-3.0-only",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Florian Palme",
+      "email": "info@florian-palme.de",
+      "homepage": "https://www.florian-palme.de/",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "FlorianPalme\\OXIDVideos\\": "../../../source/modules/fp/oxid-videos"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "extra": {
+    "oxideshop": {
+      "target-directory": "fp/oxid-videos"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0"
+  }
+}
