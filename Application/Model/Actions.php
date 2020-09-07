@@ -55,6 +55,7 @@ class Actions extends Actions_parent
         $this->fpOXIDVideosExecuteGetBannerUrl = true;
 
         $thumbUrl = $this->getBannerPictureUrl();
+        if (!$thumbUrl) $thumbUrl = '';
 
         $this->fpOXIDVideosExecuteGetBannerUrl = false;
 

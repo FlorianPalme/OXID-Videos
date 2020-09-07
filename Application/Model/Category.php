@@ -55,6 +55,7 @@ class Category extends Category_parent
         $this->fpOXIDVideosExecuteGetThumbUrl = true;
 
         $thumbUrl = $this->getThumbUrl();
+        if (!$thumbUrl) $thumbUrl = '';
 
         $this->fpOXIDVideosExecuteGetThumbUrl = false;
 
