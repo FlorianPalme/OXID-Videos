@@ -33,6 +33,7 @@ class Video
         'width' => 0,
         'height' => 0,
         'poster' => false,
+        'playsinline' => true,
     ];
 
     /**
@@ -136,6 +137,11 @@ class Video
             if ($this->attributes['preload'] === 'metadata' || $this->attributes['preload'] === 'none') {
                 $attributes[] = 'preload="' . $this->attributes['preload'] . '"';
             }
+        }
+
+        // play video inline
+        if (array_key_exists('playsinline', $this->attributes) && $this->attributes['playsinline'] === true) {
+            $attributes[] = 'playsinline';
         }
 
         return $attributes;

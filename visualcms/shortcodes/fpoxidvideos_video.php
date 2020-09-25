@@ -83,6 +83,12 @@ class fpoxidvideos_video_shortcode extends VisualEditorShortcode
                'type' => 'image',
                'label' => $lang->translateString('FPOXIDVIDEOS_SHORTCODE_POSTER'),
            ],
+
+           'playsinline' => [
+               'type' => 'checkbox',
+               'label' => $lang->translateString('FPOXIDVIDEOS_SHORTCODE_PLAYSINLINE'),
+               'default' => true,
+           ],
         ]);
     }
 
@@ -106,6 +112,7 @@ class fpoxidvideos_video_shortcode extends VisualEditorShortcode
             $videoData['muted'] = (bool) $videoData['muted'];
             $videoData['width'] = (int) $videoData['width'];
             $videoData['height'] = (int) $videoData['height'];
+            $videoData['playsinline'] = (bool) $videoData['playsinline'];
 
             /** @var Media $media */
             $media = oxNew(Media::class);

@@ -70,6 +70,7 @@ class Config extends Config_parent
             'muted' => $this->fpOXIDVideoGetConfigValue('fpoxidvideos_' . $configType . '_muted'),
             'width' => (int) $this->fpOXIDVideoGetConfigValue('fpoxidvideos_' . $configType . '_width'),
             'height' => (int) $this->fpOXIDVideoGetConfigValue('fpoxidvideos_' . $configType . '_height'),
+            'playsinline' => (bool) $this->fpOXIDVideoGetConfigValue('fpoxidvideos_' . $configType . '_playsinline'),
         ];
 
         return $attributes;

@@ -32,6 +32,7 @@ $aLang = [
     'FPOXIDVIDEOS_SHORTCODE_PRELOAD_METADATA' => 'Nur Metadaten vorladen (metadata)',
     'FPOXIDVIDEOS_SHORTCODE_PRELOAD_NONE' => 'Nicht vorladen (none)',
     'FPOXIDVIDEOS_SHORTCODE_POSTER' => '"Bild" als Video-Banner verwenden (poster)',
+    'FPOXIDVIDEOS_SHORTCODE_PLAYSINLINE' => 'PlaysInline-Attribut setzen (mobile)',
 ];
 
 /*

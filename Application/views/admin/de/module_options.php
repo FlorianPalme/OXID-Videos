@@ -26,6 +26,7 @@ $aLang = [
     'SHOP_MODULE_fpoxidvideos_categories_preload_metadata' => 'Nur Metadaten vorladen (metadata)',
     'SHOP_MODULE_fpoxidvideos_categories_preload_none' => 'Nicht vorladen (none)',
     'SHOP_MODULE_fpoxidvideos_categories_poster' => '"Bild" als Video-Banner verwenden (poster)',
+    'SHOP_MODULE_fpoxidvideos_categories_playsinline' => 'PlaysInline-Attribut setzen (mobile)',
 
     'SHOP_MODULE_GROUP_fpoxidvideos_actions' => 'Aktions-Banner',
     'SHOP_MODULE_fpoxidvideos_actions_autoplay' => 'Automatisch abspielen (autoplay)',
@@ -41,6 +42,8 @@ $aLang = [
     'SHOP_MODULE_fpoxidvideos_actions_preload_metadata' => 'Nur Metadaten vorladen (metadata)',
     'SHOP_MODULE_fpoxidvideos_actions_preload_none' => 'Nicht vorladen (none)',
     'SHOP_MODULE_fpoxidvideos_actions_poster' => '"Bild" als Video-Banner verwenden (poster)',
+    'SHOP_MODULE_fpoxidvideos_actions_playsinline' => 'PlaysInline-Attribut setzen (mobile)',
+
 ];
 
 /*

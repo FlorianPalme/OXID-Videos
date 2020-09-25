@@ -18,7 +18,7 @@ $aModule = [
     'title'        => '<span style="color:#d35400;font-weight:bold;">{</span>FP<span style="color:#d35400;font-weight:bold;">}</span> OXID Videos',
     'description'  => 'Ermöglicht die Integration von Videos an verschiedensten Stellen, an welcher sonst nur Bilder eingebunden werden können.',
     'thumbnail'    => 'logo.png',
-    'version'      => '1.0.0',
+    'version'      => '1.0.1',
     'author'       => 'Florian Palme',
     'url'          => 'http://www.florian-palme.de',
     'email'        => 'info@florian-palme.de',
@@ -144,6 +144,13 @@ $aModule = [
         ],
 
         [
+            'group' => 'fpoxidvideos_categories',
+            'name' => 'fpoxidvideos_categories_playsinline',
+            'type' => 'bool',
+            'value' => true,
+        ],
+
+        [
             'group' => 'fpoxidvideos_actions',
             'name' => 'fpoxidvideos_actions_autoplay',
             'type' => 'bool',
@@ -196,6 +203,13 @@ $aModule = [
         [
             'group' => 'fpoxidvideos_actions',
             'name' => 'fpoxidvideos_actions_poster',
+            'type' => 'bool',
+            'value' => true,
+        ],
+
+        [
+            'group' => 'fpoxidvideos_actions',
+            'name' => 'fpoxidvideos_actions_playsinline',
             'type' => 'bool',
             'value' => true,
         ],
